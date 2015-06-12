@@ -9,7 +9,7 @@ COMPILER = GCC#NO SPACE
 COLOR = BLUE#NO SPACE
 
 # Path were to install likwid
-PREFIX = /usr/local#NO SPACE
+PREFIX ?= /usr/local#NO SPACE
 MANPREFIX = $(PREFIX)/man#NO SPACE
 
 # For the daemon based secure msr/pci access configure
